@@ -1,0 +1,111 @@
+/* My Products Page */  
+.wsp-my-products-title {  
+    font-size: 24px;  
+    margin-bottom: 20px;  
+    text-align: center;  
+}  
+  
+.wsp-my-products-container {  
+    display: flex;  
+    flex-wrap: wrap;  
+    gap: 20px;  
+    justify-content: center;  
+}  
+  
+.wsp-product-card {  
+    display: flex;  
+    flex-direction: column;  
+    align-items: center;  
+    border: 1px solid #ddd;  
+    border-radius: 8px;  
+    padding: 15px;  
+    width: 20%;  /**NEED TO PREVENT this 4 cols at smaller screens!!*/
+    background-color: #fff;  
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  
+}  
+  
+.wsp-product-image img {  
+    max-width: 100%;  
+    height: auto;  
+    border-radius: 4px;  
+    margin-bottom: 10px;  
+}  
+  
+.wsp-product-details {  
+    text-align: center;  
+    margin-bottom: 15px;  
+}  
+  
+.wsp-product-name {  
+    font-size: 18px;  
+    font-weight: bold;  
+    margin-bottom: 10px;  
+}  
+  
+.wsp-product-quantity,  
+.wsp-product-price,  
+.wsp-product-status {  
+    font-size: 14px;  
+    margin: 5px 0;  
+}  
+  
+.wsp-product-actions {  
+    display: flex;  
+    gap: 10px;  
+}  
+  
+.wsp-edit-button,  
+.wsp-delete-button {  
+    display: inline-block;  
+    padding: 8px 12px;  
+    font-size: 14px;  
+    text-align: center;  
+    text-decoration: none;  
+    border-radius: 4px;  
+    transition: background-color 0.3s ease;  
+}  
+  
+.wsp-edit-button {  
+    background-color: #0071a1;  
+    color: #fff;  
+}  
+  
+.wsp-edit-button:hover {  
+    background-color: #005f87;  
+}  
+  
+.wsp-delete-button {  
+    background-color: #ff4d4d;  
+    color: #fff;  
+}  
+  
+.wsp-delete-button:hover {  
+    background-color: #e60000;  
+}  
+  
+/* Pagination */  
+.wsp-pagination {  
+    margin-top: 20px;  
+    text-align: center;  
+}  
+  
+.wsp-pagination a {  
+    display: inline-block;  
+    padding: 8px 12px;  
+    margin: 0 5px;  
+    background-color: #f1f1f1;  
+    color: #333;  
+    text-decoration: none;  
+    border-radius: 4px;  
+    transition: background-color 0.3s ease;  
+}  
+  
+.wsp-pagination a:hover {  
+    background-color: #ddd;  
+}  
+  
+.wsp-pagination .current {  
+    background-color: #0071a1;  
+    color: #fff;  
+    font-weight: bold;  
+}  
